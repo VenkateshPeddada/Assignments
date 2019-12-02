@@ -1,3 +1,16 @@
+Scheduling Algorithm: Priority with round-robin Implement 
+Priority with round-robin scheduling algorithm, which schedules tasks in order of priority and uses round-robin scheduling for tasks with equal priority. 
+1. Priorities range from 1 to 10, where a higher numeric value indicates a higher relative priority. For round-robin scheduling, the length of a time quantum is 10 milliseconds 
+2. The implementation of this project may be completed in Java and github link: https://github.com/VenkateshPeddada/Assignments.git  
+Java directory for Java codes. This link has several scheduling algorithms, but you just need to complete only one algorithm, Priority with round-robin. 
+These supporting files read in the schedule of tasks, insert the tasks into a list, and invoke the scheduler. The schedule of tasks has the form [task name] [priority] [CPU burst], with the following example format: 
+T1, 4, 20 
+T2, 2, 25 
+T3, 3, 25 
+T4, 3, 15 
+T5, 10, 10 
+Thus, task T1 has priority 4 and a CPU burst of 20 milliseconds, and so forth. It is assumed that all tasks arrive at the same time, so your scheduler algorithm does not have to support higher-priority processes preempting processes with lower priorities. In addition, tasks do not have to be placed into a queue or list in any particular order.
+
 Completing this project will require writing the following Java classes:
 
 FCFS.java
